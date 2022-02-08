@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    max-height: 20%;
+    background-image: url(./AstronmyTitlepicture.jpeg);
+    background-repeat: repeat-y;
+    background-position: center;
+    padding: 50px;
+   
+}
+
+h1 {
+    margin: 20px;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+}
+h2 {
+    margin: 50px auto;
+}
+h3 h2 {
+    margin: 30px auto;
+}
+
+p {
+    max-width: 50%;
+    margin: 10px auto;
+}
+
+#rubric {
+    max-height: 30%;
+    max-width: 30%;
+}
