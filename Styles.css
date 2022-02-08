@@ -18,12 +18,35 @@ header {
     padding: 50px;
    
 }
-
+hr {
+    margin: 20px;
+    width: 100%;
+}
 h1 {
     margin: 20px;
     justify-content: center;
     width: 100%;
     color: #fff;
+}
+.directory {
+    max-width: 30%;
+}
+.directory > ul {
+    list-style-type: none;
+}
+.directory > li {
+    margin: 20px auto;
+    
+}
+.directory > h2 {
+    color: white;
+    margin: 10px auto;
+}
+[href] {
+    color: white;
+}
+[href]:hover{
+    color: rgb(89, 146, 43);
 }
 h2 {
     margin: 50px auto;
