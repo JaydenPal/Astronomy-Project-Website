@@ -8,6 +8,7 @@
 
 body {
     background-color: black;
+
 }
 
 header {
@@ -16,7 +17,10 @@ header {
     background-repeat: repeat-y;
     background-position: center;
     padding: 50px;
-   
+
+}
+#name {
+    font-size: 10px;
 }
 hr {
     margin: 20px;
@@ -27,18 +31,41 @@ h1 {
     justify-content: center;
     width: 100%;
     color: #fff;
+    
 }
 .directory {
     max-width: 30%;
+    max-height: 30%;
+    border: 2px solid white;
+    background-image: url(./backgroundimg.jpeg);
+    border-bottom: 1px solid white;
+   
 }
 .directory > ul {
     list-style-type: none;
 }
-.directory > li {
-    margin: 20px auto;
-    
+.directory > ul >li {
+    margin: 8px auto;
 }
 .directory > h2 {
+    color: white;
+    margin: 10px auto;
+}
+.useful-links {
+    max-width: 30%;
+    border: 2px solid white;
+    background-image: url(./backgroundimg.jpeg);
+    border-top: 1px solid white;
+   
+}
+.useful-links  > ul {
+    list-style-type: none;
+}
+.useful-links  > ul > li {
+    
+    margin: 8px auto;
+}
+.useful-links  > h2 {
     color: white;
     margin: 10px auto;
 }
