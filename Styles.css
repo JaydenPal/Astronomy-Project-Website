@@ -82,12 +82,49 @@ h3 h2 {
     margin: 30px auto;
 }
 
+h3 {
+    margin: 30px;
+}
+
 p {
     max-width: 50%;
     margin: 10px auto;
+    line-height: 25px;
 }
 
 #rubric {
     max-height: 30%;
     max-width: 30%;
+}
+
+.question {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.question > p {
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.sun-latitude {
+    margin: 20px auto;
+    justify-self: flex-start;
+    width: 80%;
+}
+
+.sun-latitude > ul > li {
+    display: none;
+}
+
+.sun-latitude h5 {
+    font-size: 20px;
+}
+li {
+    margin-top: 20px;
 }
