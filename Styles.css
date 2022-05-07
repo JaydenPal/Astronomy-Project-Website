@@ -119,7 +119,7 @@ p {
 }
 
 .sun-latitude > ul > li {
-    display: none;
+    list-style-type: none;
 }
 
 .sun-latitude h5 {
@@ -127,4 +127,5 @@ p {
 }
 li {
     margin-top: 20px;
+    list-style-type: none;
 }
